@@ -1,0 +1,108 @@
+@import url('http://fonts.cdnfonts.com/css/minecraftia');
+
+body { 
+    background-color: rgb(128, 186, 233);
+}
+
+header {
+    background-color: rgba(277, 277, 277, 1);
+    top: 10px;
+    z-index: 10;
+}
+
+header img {
+    width: 1.3%;
+    margin: 0.4% 0 0.2% 0.5%;
+    float: left;
+}
+
+header p {
+    display: inline-block;
+    font-size: 70%;
+    padding-left: 0.5%;
+}
+
+
+header i {
+    float: right;
+    margin-right: 1.5%;
+    margin-top: 0.7%;
+}
+
+.container {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url("images/dirt.png");
+    height: 580pt;
+    background-size: 2%;
+}
+
+.search {
+    width: max-content;
+    margin: 0 auto;
+    display: block;
+    padding-top: 11%;
+}
+
+.title {
+    color: rgba(240, 240, 240, 1);
+}
+
+.title h1 {
+    font-size: 450%;
+    font-family: 'Minecraftia', sans-serif;
+    text-align: center;
+}
+
+.searchbar {
+    padding-bottom: 20%;
+}
+
+.searchbar h4 {
+    font-size: 150%;
+    font-family: 'Minecraftia', sans-serif;
+    color: rgba(200, 200, 200, 1);
+    display: inline;
+}
+
+.bar {
+    display: flex;
+}
+
+.bar_teks {
+    width: 500px;
+    height: 30px;
+    outline: none;
+    border: solid 2px rgb(138, 138, 138);
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 15px;
+    font-family: 'Minecraftia', sans-serif;
+}
+
+.bar_btn {
+    height: 35,4px;
+    background-size: cover;
+    background-color: black;
+    width: 35px;
+    outline: none;
+    border: solid 2px rgb(138, 138, 138);
+}
+
+.bar_btn i {
+    font-size: 20px;
+    color: white;
+}
+
+.bar_btn:active {
+    border: solid 2px rgb(56, 56, 56);
+}
+
+.output p {
+    font-size: 150%;
+    color: rgba(200, 200, 200, 1);
+    font-family: 'Minecraftia', sans-serif;
+    display: inline;
+}
